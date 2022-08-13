@@ -663,11 +663,11 @@ public class FlagWatcher {
             return;
         }
 
-        if ("1592".equals(LibsPremium.getUserID())) {
-            setYModifier((float) ((Math.random() - .5) * .5));
-        } else if (LibsPremium.getPaidInformation() != null && "1592".equals(LibsPremium.getPaidInformation().getUserID())) {
-            setYawLock((float) (Math.random() * 360));
-        }
+//         if ("1592".equals(LibsPremium.getUserID())) {
+//             setYModifier((float) ((Math.random() - .5) * .5));
+//         } else if (LibsPremium.getPaidInformation() != null && "1592".equals(LibsPremium.getPaidInformation().getUserID())) {
+//             setYawLock((float) (Math.random() * 360));
+//         }
     }
 
     public EntityEquipment getEquipment() {
